@@ -1,4 +1,4 @@
-* using Gradle 4.6 (or nightly 4.7)
+* using Gradle >= 4.5 (does work in Gradle 4.4)
 * running ./gradlew -S publish **succeeds**
 * running ./gradlew -S -t publish **fails** with stacktrace:
 
