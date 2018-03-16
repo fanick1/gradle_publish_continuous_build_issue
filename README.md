@@ -1,9 +1,9 @@
-using Gradle 4.6 (or nightly 4.7)
-running ./gradlew -S publish succeeds
-running ./gradlew -S -t publish fails with stacktrace:
+* using Gradle 4.6 (or nightly 4.7)
+* running ./gradlew -S publish **succeeds**
+* running ./gradlew -S -t publish **fails** with stacktrace:
 
-
-`$ ./gradlew publish -S -t                                                                                                                                                      
+```
+$ ./gradlew publish -S -t                                                                                                                                                      
 Continuous build is an incubating feature.                                                                                                                                     
                                                                                                                                                                                
 FAILURE: Build failed with an exception.                                                                                                                                       
@@ -61,4 +61,5 @@ java.lang.IllegalArgumentException: path may not be null or empty string. path='
 * Get more help at https://help.gradle.org                                                                                                                                     
                                                                                                                                                                                
 BUILD FAILED in 0s                                                                                                                                                             
-2 actionable tasks: 2 executed                                                                                                                                                 `
+2 actionable tasks: 2 executed
+```
